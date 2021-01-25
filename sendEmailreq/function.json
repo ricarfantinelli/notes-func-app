@@ -2,20 +2,26 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "authLevel": "anonymous",
+      "authLevel": "function",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
-      ],
-      "connection" : "MyDBConnectionString"
-
+        "get",
+        "post"
+      ]
     },
     {
       "type": "http",
       "direction": "out",
       "name": "$return"
+    },
+    {
+      "type": "sendGrid",
+      "name": "sendGridMessage",
+      "direction": "out",
+      "apiKey": "SendGridAPI",
+      "from": "fantaere@gmail.com"
     }
   ]
 }

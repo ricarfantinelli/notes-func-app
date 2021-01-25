@@ -2,7 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "MyDBConnectionString" : "mongodb://notes-funcapp-cosmosdb:N60ADQiUDwoArI9nCcEs1fQlYOG5YaPNVS3Xu1pEAaBbMjhGvlTj5HT24bljDdXGfMO5Rn8tZUEphAj6DH0fnw==@notes-funcapp-cosmosdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=notesfuncappstg;AccountKey=kIz+T0Frdwx/hsTEva3u1IwNGWDPLmj22NwgGS2CYEu97exqPhK+gYaZ9/TqhVPahOLgytk9PlnoxOjx7GCzsA==;EndpointSuffix=core.windows.net",
+    "MyDBConnectionString" : "mongodb://notes-funcapp-cosmosdb:N60ADQiUDwoArI9nCcEs1fQlYOG5YaPNVS3Xu1pEAaBbMjhGvlTj5HT24bljDdXGfMO5Rn8tZUEphAj6DH0fnw==@notes-funcapp-cosmosdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",
+    "SendGridAPI": "SG.GYlCv6TOQouKv0jsxx8kuw.Ike8ot3YMsG-k7TceFG386P88oQh0IVTud3TtvVS4nM"
   }
 }
